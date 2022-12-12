@@ -1,0 +1,28 @@
+GET localhost:3000/products
+
+###
+
+GET localhost:3000/products/635976a56e6524fe465bde95
+
+###
+
+POST localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Milk",
+  "description": "Chocolate milk",
+  "price": 88.2
+}
+
+###
+
+POST localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Bread",
+  "description": "Grain bread",
+  "price": 79
+}
+
