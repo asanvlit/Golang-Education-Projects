@@ -1,0 +1,4 @@
+mongo:
+  database:
+    name: simple_application_database
+    uri: mongodb://localhost:27017

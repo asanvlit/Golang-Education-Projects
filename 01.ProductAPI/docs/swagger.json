@@ -1,0 +1,16 @@
+{
+    "schemes": [
+        "http"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "description": "HW #4",
+        "title": "04.API-Product-Store-with-Mongo",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {},
+        "version": "0.2"
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "paths": {}
+}

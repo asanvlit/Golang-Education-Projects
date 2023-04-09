@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "ru.itis.products.pb";
+option java_multiple_files = true;
+
+service ProductService {
+  rpc GetProduct(ProductRequest) returns (ProductResponse) {}
+}
+
+message ProductRequest {
+  string id = 1;
+}
+
+message ProductResponse {
+  string name = 1;
+}
